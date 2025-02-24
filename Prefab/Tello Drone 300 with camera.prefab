@@ -208,9 +208,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_target: {fileID: 8557288679210217226}
   m_whatToMove: {fileID: 9121647850394523071}
-  m_lerpSpeedMove: 1.2
+  m_lerpSpeedMove: 8
   m_lerpSpeedRotate: 180
-  m_useLateUpdate: 0
+  m_useLateUpdate: 1
 --- !u!1001 &2937825618735489253
 PrefabInstance:
   m_ObjectHideFlags: 0
