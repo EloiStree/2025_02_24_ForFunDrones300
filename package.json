@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.forfun300",                              
+  "displayName": "Have Fun with Drones at 300",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Have fun with drones.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2025_02_24_ForFunDrones300.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
