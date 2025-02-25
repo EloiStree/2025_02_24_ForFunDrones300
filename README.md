@@ -10,4 +10,7 @@ Package.json
     "be.elab.tellotoy": "https://github.com/EloiStree/2023_02_19_KidToyDroneTelloModeCode.git",
     "be.elab.uvdrawabledrones": "https://github.com/EloiStree/2024_08_05_UvDrawableDrones.git",
     "be.elab.xinputdotnet": "https://github.com/EloiStree/2020_11_26_XInputDotNet.git",
+    
 ``` 
+
+https://github.com/EloiStree/2024_10_16_BlocksColor.git
