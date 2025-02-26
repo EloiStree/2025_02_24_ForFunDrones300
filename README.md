@@ -17,3 +17,4 @@ Package.json
 - Asset from the store: https://github.com/EloiStree/2025_02_05_P_NaturePack300.git
 - Scan https://github.com/EloiStree/2025_02_25_GamingSpaceScan300.git
 - Patoune: https://github.com/EloiStree/2024_10_02_PatouneRace
+- Drone Race: https://github.com/EloiStree/2024_06_31_DroneRaceStep
