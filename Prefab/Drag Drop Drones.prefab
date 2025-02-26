@@ -105,6 +105,40 @@ Transform:
   - {fileID: 7603838646586060568}
   m_Father: {fileID: 2854476203095730126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3052018103289581855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5957247315134478408}
+  m_Layer: 0
+  m_Name: Input
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5957247315134478408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052018103289581855}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1575696467866074774}
+  - {fileID: 2507271240809406048}
+  - {fileID: 2626706908684081384}
+  m_Father: {fileID: 7717102171193348357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3217317130144400924
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +240,38 @@ Transform:
   - {fileID: 2769778003725086517}
   m_Father: {fileID: 1082015331791366664}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3596244204510211028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8208297811895673951}
+  m_Layer: 0
+  m_Name: Camera 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8208297811895673951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3596244204510211028}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 658416097027147980}
+  m_Father: {fileID: 7717102171193348357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4139983546387112090
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +304,7 @@ Transform:
   - {fileID: 1082015331791366664}
   - {fileID: 3927297602799586443}
   - {fileID: 2854476203095730126}
+  - {fileID: 7717102171193348357}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4523715125070611678
@@ -271,6 +338,39 @@ Transform:
   m_Children:
   - {fileID: 1030548182839629260}
   - {fileID: 5359664495822445571}
+  m_Father: {fileID: 7095265509374640366}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5537907314994537856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7717102171193348357}
+  m_Layer: 0
+  m_Name: One Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7717102171193348357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537907314994537856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8208297811895673951}
+  - {fileID: 5957247315134478408}
   m_Father: {fileID: 7095265509374640366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6192589372085959619
@@ -322,7 +422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1082015331791366664
 Transform:
   m_ObjectHideFlags: 0
@@ -426,6 +526,92 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
   m_PrefabInstance: {fileID: 241958602552662738}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &951802922229737633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5957247315134478408}
+    m_Modifications:
+    - target: {fileID: 1634096391094193370, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_Name
+      value: R Right Keyboard Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0027591707
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.084249705
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.052941035
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99630046
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.08593863
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751103968745540484, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751103968745540484, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8044367607173393066}
+    - target: {fileID: 8751103968745540484, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751103968745540484, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetWithDoubleJoysticks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751103968745540484, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TelloJoystickRelayMono, be.elab.tellotoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751103968745540484, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+--- !u!4 &2626706908684081384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
+  m_PrefabInstance: {fileID: 951802922229737633}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1609049238352682397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -511,6 +697,92 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
   m_PrefabInstance: {fileID: 1609049238352682397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1611079783324517114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5957247315134478408}
+    m_Modifications:
+    - target: {fileID: 827493411447234569, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_Name
+      value: R Left Keyboard Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0027591707
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.084249705
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.052941035
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99630046
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.08593863
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252071300182959959, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252071300182959959, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8044367607173393066}
+    - target: {fileID: 7252071300182959959, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252071300182959959, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetWithDoubleJoysticks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252071300182959959, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TelloJoystickRelayMono, be.elab.tellotoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252071300182959959, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+      propertyPath: m_onJoysticksChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+--- !u!4 &2507271240809406048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3787572839614274714, guid: 630aa25994787a64dbd38d869338eb39, type: 3}
+  m_PrefabInstance: {fileID: 1611079783324517114}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1775832827300889993
 PrefabInstance:
@@ -1694,6 +1966,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2974218205888999497, guid: 1535afdd6ce0b4143923046352cb264e, type: 3}
   m_PrefabInstance: {fileID: 5008116832698598926}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5445190827729778246
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8208297811895673951}
+    m_Modifications:
+    - target: {fileID: 1029220049972282792, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029220049972282792, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029220049972282792, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673139215672420886, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_Name
+      value: Tello Drone 300 with camera Left Keyboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335879914693959274, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_lerpSpeedRotate
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2930481615887394277, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+--- !u!4 &658416097027147980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4805936491094064778, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+  m_PrefabInstance: {fileID: 5445190827729778246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8044367607173393066 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2608254349355703532, guid: e5b608e8aeb78b94eabfd82ce027e460, type: 3}
+  m_PrefabInstance: {fileID: 5445190827729778246}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e444960233e47e14498a796085ef4fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5789657037591964393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2426,3 +2788,161 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e444960233e47e14498a796085ef4fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &8554599472521616922
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5957247315134478408}
+    m_Modifications:
+    - target: {fileID: 4012207503222269275, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_Name
+      value: Four Double Joysticks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[0].m_onChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[1].m_onChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[2].m_onChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[3].m_onChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[0].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8044367607173393066}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[1].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8044367607173393066}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[2].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8044367607173393066}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[3].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8044367607173393066}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[0].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[1].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[2].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[3].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[0].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetWithDoubleJoysticks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[1].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetWithDoubleJoysticks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[2].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetWithDoubleJoysticks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[3].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetWithDoubleJoysticks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[0].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TelloJoystickRelayMono, be.elab.tellotoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[1].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TelloJoystickRelayMono, be.elab.tellotoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[2].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TelloJoystickRelayMono, be.elab.tellotoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[3].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TelloJoystickRelayMono, be.elab.tellotoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[0].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[1].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[2].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482620097911546712, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+      propertyPath: m_gamepadJoystickStateToEvent.Array.data[3].m_onChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+--- !u!4 &1575696467866074774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7162400659686006924, guid: 38321d5ace0884048955152c1bce6e59, type: 3}
+  m_PrefabInstance: {fileID: 8554599472521616922}
+  m_PrefabAsset: {fileID: 0}
