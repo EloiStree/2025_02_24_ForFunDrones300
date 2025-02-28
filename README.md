@@ -20,3 +20,4 @@ Package.json
 - Drone Race: https://github.com/EloiStree/2024_06_31_DroneRaceStep
 - https://github.com/EloiStree/2025_02_18_OuterWildsShip
 - https://github.com/EloiStree/OpenUMP_TickCollection.git
+- https://github.com/EloiStree/2024_06_31_DroneRaceStep.git
