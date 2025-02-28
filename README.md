@@ -18,3 +18,5 @@ Package.json
 - Scan https://github.com/EloiStree/2025_02_25_GamingSpaceScan300.git
 - Patoune: https://github.com/EloiStree/2024_10_02_PatouneRace
 - Drone Race: https://github.com/EloiStree/2024_06_31_DroneRaceStep
+- https://github.com/EloiStree/2025_02_18_OuterWildsShip
+- https://github.com/EloiStree/OpenUMP_TickCollection.git
